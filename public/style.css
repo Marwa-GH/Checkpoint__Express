@@ -1,0 +1,103 @@
+body{
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+header{
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+main{
+   
+    margin: 0 30px;
+}
+.NavBar{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 20px 0;
+    color:rgb(79, 79, 209);
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+li{
+    padding-left: 50px;
+}
+home{
+    text-decoration: underline;
+}
+.contact{
+ text-decoration: underline;
+}
+.service{
+    text-decoration: underline;
+}
+.Link{
+    color: rgb(112, 164, 209);
+    text-decoration: none;
+}
+.home-img{
+    height: 1000px;
+    width: 100%;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    top: 14px;
+}
+h1{
+    color: rgb(8, 14, 97);
+    font-size: xx-large;
+}
+h5{
+    margin: 0;
+    position: relative;
+    bottom: 700px;
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    font-weight: bold;
+}
+h3{
+margin: 0;
+padding: 20px 20px;
+position: relative;
+bottom: 720px;
+text-align: center;
+letter-spacing: 5px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+}
+.sing-up-Btn{
+    border: reduis 5px;
+    border: transparent;
+    background-color: aliceblue;
+    color: rgb(224, 150, 165);
+    padding: 10px 10px;
+    position: relative;
+    bottom: 700px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.Log-In-Btn:focus{
+    outline: none;
+}
+.close-img {
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    height: auto;
+}
+.logo-name{
+    display: flex;
+    align-items: baseline;
+}
